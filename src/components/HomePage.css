@@ -1,0 +1,40 @@
+.titleHeader{
+    text-align: center;
+}
+
+.listWrapper{
+    width: 539px;
+    top: 55px;
+    position: relative;
+    border: 1px solid #eee; 
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.headerWrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 539px;
+    border-bottom: 1px solid #eee;
+}
+
+.headerTitleCrypto{
+    display: inline-block;
+    padding: 10px 0px;
+    left: 20px;
+    position: relative;
+}
+
+.headerTitlePrice{
+    right: 124px;
+    position: absolute;
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+.headerTitleChange{
+    display: inline-block;
+    right: 14px;
+    padding: 10px 0px;
+    position: absolute;
+}

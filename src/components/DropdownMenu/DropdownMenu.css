@@ -1,0 +1,66 @@
+.navBarWrapper{
+    width: 540px;
+    margin: 0 auto;
+}
+
+.ddWrapper{
+    width: 180px;
+    position: absolute;
+    background: white;
+}
+
+.ddHeader{
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.ddHeader:hover{
+    box-shadow: inset 0px -9px 14px -10px #CCC;
+    transition: all .2s ease-in-out;
+}
+
+.ddHeaderTitle{
+    padding-left: 10px;
+    position: relative;
+}
+
+.downArrow{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 7px;
+    position: absolute;
+    right: 15px;
+    vertical-align: middle;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.ddList{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    transition: all 1s ease-in-out;
+}
+
+.ddListItem{
+    text-align: left;
+    border-bottom: 1px solid #dfdfdf;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.ddListItem:hover{
+    box-shadow: inset 0px -9px 14px -10px #CCC;
+    transition: all .2s ease-in-out;
+}
